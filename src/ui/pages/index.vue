@@ -1,5 +1,5 @@
 <template>
-  <div><PokemonHome :api-url="apiUrl" :image-url="imageUrl" /></div>
+  <div></div>
 </template>
 
 <script>
