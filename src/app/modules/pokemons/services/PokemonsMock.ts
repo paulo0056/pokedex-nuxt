@@ -1,5 +1,5 @@
 import { PokemonDetail } from '../model/PokemonRes';
-import { IPokemonsService } from './pokemons';
+import { IPokemonsService } from './Pokemons';
 export class PokemonsServiceMock implements IPokemonsService {
   async getPokemonsParam(): Promise<any> {
     const returnBody: any = {};
